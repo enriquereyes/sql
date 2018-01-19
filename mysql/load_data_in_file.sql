@@ -1,0 +1,6 @@
+LOAD DATA INFILE './file.csv' INTO TABLE table_name
+CHARACTER SET latin1
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+(`field_1`,`field_2`)
